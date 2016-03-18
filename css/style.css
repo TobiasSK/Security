@@ -1,0 +1,13 @@
+body{
+    
+}
+
+#alert{
+    visibility: hidden;
+    color: red;
+}
+
+#vig_alert{
+   visibility: hidden;
+    color: red; 
+}

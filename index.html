@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+ 
+ <h1>Shift Cipher</h1>
+    
+    <textarea id="encryptText" cols="30" rows="5"></textarea>
+    
+  <button id="btn_encrypt" type="button"  onclick="encrypt()">Encrypt</button>
+    
+    <button id="btn_decrypt" type="button" onclick="decrypt()">Decrypt</button>
+    <textarea id="decryptText" cols="30" rows="5"></textarea>
+    
+    <h5 id="alert">You need to use lowercase letters from a-z!</h5>
+    
+    <h5>Shift:</h5>
+    <input type="text" id="shift" value="3"/>
+    
+    
+    <h1> Vigenere Cipher</h1>
+    
+    <h7>Enter a key input. It can be a number or a letter: </h7>
+    <input type="text" id="vig_shift" value=""/>
+    
+     <textarea id="vigenereText" cols="30" rows="5"></textarea>
+    
+    <button id="btn_vigenere" type="button"  onclick="vig_Encrypt()">Encrypt</button>
+    <button id="btn_vigenereDecrypt" type="button"  onclick="vig_Decrypt()">Decrypt</button>
+      <h5 id="vig_alert">You need to use a key of maximum 4 letters or numbers!</h5>
+    
+    
+    
+    <h1>GCD Implementation </h1>    
+    
+    <input type="text" id="inputA" placeholder="insert a value here"/>
+     <input type="text" id="inputB" placeholder="insert b value here"/>
+    
+    <button id="calculate" type="button" onclick="calculate()">calculate GCD</button>
+
+
+    <input type="text" placeholder="answer here" id="inputAnswer" readonly>
+ 
+
+
+<script src="js/script_gcd.js" type="text/javascript"></script>
+<script src="js/script_vigenere.js" type="text/javascript"></script>
+<script src="js/script_caesarshiftcipher.js" type="text/javascript"></script>
+    </body>
+</html>
